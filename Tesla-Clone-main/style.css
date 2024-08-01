@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Fonts/Roboto/Roboto-Black.ttf);
+}
+
+:root {
+
+    --textcolor1: #FFFFFF;
+    --textcolor2: #393C41;
+}
+
+body {
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+.first {
+    margin-top: -20px;
+    background-image: url(images/Homepage-img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second {
+    background-image: url(images/Homepage-img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.third {
+    background-image: url(images/Homepage-img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.fourth {
+    background-image: url(images/Homepage-img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.fifth{
+    background-image: url(images/Homepage-img5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;   
+}
+
+.sixth{
+    background-image: url(images/Homepage-img6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;   
+}
+
+.seventh{
+    background-image: url(images/Homepage-img7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;   
+}
+
+.eighth{
+    background-image: url(images/Homepage-img8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;   
+}
+
+.ninth{
+    background-image: url(images/Homepage-img9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;  
+}
+
+.tenth{
+    padding-top: 100px;
+    font-family: Roboto;
+    font-weight: lighter;
+    background-color:black;
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+
+
+    a{
+        color: rgb(202, 200, 200);
+    }
+
+    a:hover {
+        text-decoration: underline;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-thickness: 2px;
+    }
+}
+
+
+.main-div-1 {
+
+
+    .child-of-div-1 {
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 1px;
+
+        h1 {
+
+            font-size: 40px;
+            font-weight: 500;
+
+        }
+    }
+
+    .anchor-styling {
+        text-align: center;
+        letter-spacing: 1px;
+
+        a {
+            color: #FFFFFF;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            text-decoration-thickness: 2px;
+        }
+    }
+
+    .child3-of-div-1 {
+
+        text-align: center;
+        margin-top: 325px;
+        padding-bottom: 40px;
+
+        button {
+            margin-top: 20px;
+            width: 300px;
+        }
+
+    }
+}
